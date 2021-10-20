@@ -1,0 +1,26 @@
+#cotainer{
+    display: flex; /*Tornar a coluna flexivel*/
+    /*flex-direction: column-reverse; Direção da coluna*/
+    /*flex-wrap: wrap-reverse; Com telas menores ira alinha intens a baixo*/
+    /*flex-flow: column wrap; junção de Flex-direction e flex-wrap*/
+    justify-content: space-evenly;
+}
+
+.item1{
+background-color: hsl(313, 59%, 41%);
+width: 80px;
+height: 60px;
+}
+
+.item2{
+background-color: rgb(85, 85, 85);
+width: 80px;
+height: 60px;
+}
+
+.item3{
+background-color: rgb(165, 163, 42);
+width: 80px;
+height: 60px;
+}
+
